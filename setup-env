@@ -1,0 +1,3 @@
+#! /usr/bin/env bash
+
+source sources/poky-dunfell/oe-init-build-env .
