@@ -1,3 +1,0 @@
-[submodule "sources/poky-dunfell"]
-	path = sources/poky-dunfell
-	url = git://git.yoctoproject.org/poky
