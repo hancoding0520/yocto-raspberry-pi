@@ -2,3 +2,11 @@
 	path = sources/poky-dunfell
 	url = git://git.yoctoproject.org/poky
 	branch = dunfell
+[submodule "sources/meta-raspberrypi"]
+	path = sources/meta-raspberrypi
+	url = git://git.yoctoproject.org/meta-raspberrypi
+	branch = dunfell
+[submodule "sources/meta-openembedded"]
+	path = sources/meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
+	branch = dunfell
