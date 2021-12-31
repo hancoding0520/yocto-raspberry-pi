@@ -24,3 +24,10 @@ git submodule update --init --recursive
 . ./setup-env
 bitbake core-image-base
 ```
+
+flash instruction
+========================
+
+``` {.sh}
+sudo dd if=artifacts/core-image-base-raspberrypi4.wic of=/dev/sdX bs=4M conv=fsync status=progress
+```
