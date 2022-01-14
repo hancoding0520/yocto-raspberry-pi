@@ -1,7 +1,3 @@
-[submodule "sources/poky-dunfell"]
-	path = sources/poky-dunfell
-	url = git://git.yoctoproject.org/poky
-	branch = dunfell
 [submodule "sources/meta-raspberrypi"]
 	path = sources/meta-raspberrypi
 	url = git://git.yoctoproject.org/meta-raspberrypi
@@ -13,4 +9,8 @@
 [submodule "sources/meta-qt5"]
 	path = sources/meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5
+	branch = dunfell
+[submodule "sources/poky"]
+	path = sources/poky
+	url = git://git.yoctoproject.org/poky
 	branch = dunfell
