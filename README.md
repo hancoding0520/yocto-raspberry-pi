@@ -21,8 +21,7 @@ build instruction
 git clone https://github.com/hancoding0520/yocto-raspberry-pi.git
 cd yocto-raspberry-pi
 git submodule update --init --recursive
-. ./setup-env
-bitbake core-image-base
+./build.sh
 ```
 
 flash instruction
