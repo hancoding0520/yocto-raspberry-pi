@@ -10,3 +10,6 @@
 [submodule "sources/meta-qt5"]
 	path = sources/meta-qt5
 	url = https://github.com/meta-qt5/meta-qt5
+[submodule "sources/meta-virtualization"]
+	path = sources/meta-virtualization
+	url = git://git.yoctoproject.org/meta-virtualization
